@@ -1,9 +1,70 @@
-$color: #262828;
+/*
+ * Configuracion basica
+ */
 
-body {
-  color: $color;
-}
+#main-header {
+	background: #FFFFFF;
+	color: white;
+	height: 90px;
+	border: 1px solid #EDF0EE;
+    margin: 0;
+    padding: 0;
+}	
+	#main-header a {
+		color: #44EA9F;
+	}
 
-h2{
-	color: red;
+body{
+	margin:0px;
 }
+ 
+/*
+ * Logo
+ */
+
+#logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}	
+	#logo-header .site-name {
+		display: block;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+
+/*
+ * Button
+ */
+
+#log-in{
+	float:right;
+}
+#button-log-in {
+	margin: 0;
+    padding: 0;
+    margin-right: 100px;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    color: #ffffff;
+    border-radius: 4px;
+    background-color: #44EA9F;
+    border: 0px;
+}
+#button-log-in:hover{
+    color: #000000;
+    background-color: #ffffff;
+    border: 2px solid #000000
+  }
+ #button-log-in:focus{
+ 	width:0px;
+ 	height:0px;
+ 	outline:0px;
+ }
+	
